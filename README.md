@@ -5,14 +5,14 @@
 - [Websites](#Websites)
 - [Tools Needed](#Tools-Needed)
 - [Shortcuts](#Shortcuts)
-- [Properties of WebDriver class](#Properties of WebDriver class)
-- [Methods of the WebDriver class](#Methods of the WebDriver class)
-- [WebElement class](#WebElement class)
-- [Methods of the WebElement class](#Methods of the WebElement class)
-- [Properties of Select class](#Select class)
-- [Methods of the Select class](#Methods of the Select class)
-- [Alert class](#Alert class)
-- [Methods of the ALert class](#Methods of the ALert class)
+- [Properties of WebDriver class](#Properties-of-WebDriver-class)
+- [Methods of the WebDriver class](#Methods-of-the-WebDriver-class)
+- [WebElement class](#WebElement-class)
+- [Methods of the WebElement class](#Methods-of-the-WebElement-class)
+- [Properties of Select class](#Select-class)
+- [Methods of the Select class](#Methods-of-the-Select-class)
+- [Alert class](#Alert-class)
+- [Methods of the ALert class](#Methods-of-the-Alert-class)
 
 # Info
 Have you ever thought some college work can be automated using python? Rather than spending hours of looped days.  We got you, join our workshop, simplify your life and obviously chill out 😎  
@@ -108,7 +108,7 @@ select_by_visible_text(text) -> This selects all the options that display the te
 Properties of the Alert class
 text -> This gets text from the alert window
 
-#Methods of the ALert class
+#Methods of the Alert class
 accept() -> This will accept the JavaScript alert box that is click on the OK button.
 dismiss() -> This will dismiss the JavaScript alert box that is click on the Cancel button.
 send_keys(*value) -> This simulates typing into the element.
