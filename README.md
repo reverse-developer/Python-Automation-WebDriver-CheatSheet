@@ -41,11 +41,11 @@ sudo pip3 install selenium
 [brew link](https://formulae.brew.sh/cask/chromedriver)
 
 Browser based setup
-Firefox: firefoxdriver = webdriver.Firefox(executable_path=”Path to Firefox driver”)
-Chrome:``` chromedriver = webdriver.Chrome(executable_path=”Path to Chrome driver”) ```
-Internet Explorer: ```iedriver = webdriver.IE(executable_path=”­Pat­h To­ IEDriverServer.exe”) ```
-Edge: ```edgedriver = webdriver.Edge(executable_path=”­Pat­h To­ MicrosoftWebDriver.exe”)```
-Opera: ```operadriver = webdriver.Opera(executable_path=”­Pat­h To­ operadriver”)```
+Firefox: firefoxdriver = webdriver.Firefox(executable_path=”Path to Firefox driver”)<br />
+Chrome:``` chromedriver = webdriver.Chrome(executable_path=”Path to Chrome driver”) ```<br />
+Internet Explorer: ```iedriver = webdriver.IE(executable_path=”­Pat­h To­ IEDriverServer.exe”) ```<br />
+Edge: ```edgedriver = webdriver.Edge(executable_path=”­Pat­h To­ MicrosoftWebDriver.exe”)```__
+Opera: ```operadriver = webdriver.Opera(executable_path=”­Pat­h To­ operadriver”)```__
 Safari: SafariDriver now requires manual installation of the extension prior to automation
 
 # Properties of WebDriver class
