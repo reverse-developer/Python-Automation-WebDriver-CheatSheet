@@ -3,7 +3,7 @@
 ### Table of Contents
 - [Info](#Info)
 - [Websites](#Websites)
-- [Tools Needed](#Tools Needed)
+- [Tools Needed](#Tools-Needed)
 - [Shortcuts](#Shortcuts)
 - [Properties of WebDriver class](#Properties of WebDriver class)
 - [Methods of the WebDriver class](#Methods of the WebDriver class)
