@@ -12,7 +12,8 @@
 - [Properties of Select class](#Select-class)
 - [Methods of the Select class](#Methods-of-the-Select-class)
 - [Alert class](#Alert-class)
-- [Methods of the ALert class](#Methods-of-the-Alert-class)
+- [Methods of the Alert class](#Methods-of-the-Alert-class)
+- [Browser Arguments](#Browser Arguments)
 
 # Info
 Have you ever thought some college work can be automated using python? Rather than spending hours of looped days.  We got you, join our workshop, simplify your life and obviously chill out 😎  
@@ -38,6 +39,14 @@ sudo pip3 install selenium
 # Web Driver Install
 [Web Driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/)
 [brew link](https://formulae.brew.sh/cask/chromedriver)
+
+Browser based setup
+Firefox: firefoxdriver = webdriver.Firefox(executable_path=”Path to Firefox driver”)
+Chrome:``` chromedriver = webdriver.Chrome(executable_path=”Path to Chrome driver”) ```
+Internet Explorer: ```iedriver = webdriver.IE(executable_path=”­Pat­h To­ IEDriverServer.exe”) ```
+Edge: ```edgedriver = webdriver.Edge(executable_path=”­Pat­h To­ MicrosoftWebDriver.exe”)```
+Opera: ```operadriver = webdriver.Opera(executable_path=”­Pat­h To­ operadriver”)```
+Safari: SafariDriver now requires manual installation of the extension prior to automation
 
 # Properties of WebDriver class
 ```
@@ -127,4 +136,13 @@ accept() -> This will accept the JavaScript alert box that is click on the OK bu
 dismiss() -> This will dismiss the JavaScript alert box that is click on the Cancel button.
 send_keys(*value) -> This simulates typing into the element.
 ```
-
+#Browser Arguments
+–headless
+To open browser in headless mode. Works in both Chrome and Firefox browser
+–start-maximized
+To start browser maximized to screen. Requires only for Chrome browser. Firefox by default starts maximized
+–incognito
+To open private chrome browser
+–disable-notifications
+To disable notifications, works Only in Chrome browser
+http://allselenium.info/python-selenium-commands-cheat-sheet-frequently-used/
