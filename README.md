@@ -2,9 +2,9 @@
 
 ### Table of Contents
 - [Info](#Info)
-- [Websites](#Websites)
+- [Important Websites](#Websites)
 - [Tools Needed](#Tools-Needed)
-- [Shortcuts](#Shortcuts)
+- [Web Driver Install](#Web-Driver-Install)
 - [Properties of WebDriver class](#Properties-of-WebDriver-class)
 - [Methods of the WebDriver class](#Methods-of-the-WebDriver-class)
 - [WebElement class](#WebElement-class)
@@ -35,7 +35,7 @@ Mac
 sudo pip3 install selenium
 ```
 
-Web Driver Install
+# Web Driver Install
 [Web Driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/)
 [brew link](https://formulae.brew.sh/cask/chromedriver)
 
