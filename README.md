@@ -13,7 +13,7 @@
 - [Methods of the Select class](#Methods-of-the-Select-class)
 - [Alert class](#Alert-class)
 - [Methods of the Alert class](#Methods-of-the-Alert-class)
-- [Browser Arguments](#Browser Arguments)
+- [Browser Arguments](#Browser-Arguments)
 
 # Info
 Have you ever thought some college work can be automated using python? Rather than spending hours of looped days.  We got you, join our workshop, simplify your life and obviously chill out 😎  
