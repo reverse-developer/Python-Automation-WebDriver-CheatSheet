@@ -21,7 +21,7 @@ Have you ever thought some college work can be automated using python? Rather th
 This repository is for all Python enthusiasts who have a keen interest in automating the web browser using Python commands. No previous knowledge is required.  This repository will be useful for all the students who are not familiar with python as well as for those students who want to test their technical skills with hand-on-projects to solve complex and real-world problems. In this repository you will be going to learn about the new concept of how to use python commands for web automation, which is useful for testing, scraping data, getting concert tickets, filling in tedious forms using selenium. As a result, you will increase your knowledge and gain expertise in troubleshooting and debugging, python programming and version control. Moreover, this workshop is informative and fun.
 
 # Websites
-[Selenium data](https://selenium-python.readthedocs.io)
+[Selenium Docs](https://selenium-python.readthedocs.io)
 
 
 # Tools Needed
@@ -37,16 +37,18 @@ sudo pip3 install selenium
 ```
 
 # Web Driver Install
-[Web Driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/)
-[brew link](https://formulae.brew.sh/cask/chromedriver)
+[Web Driver](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/)</br>
+[Brew link](https://formulae.brew.sh/cask/chromedriver)
 
-Browser based setup
-Firefox: firefoxdriver = webdriver.Firefox(executable_path=”Path to Firefox driver”)<br />
-Chrome:``` chromedriver = webdriver.Chrome(executable_path=”Path to Chrome driver”) ```<br />
-Internet Explorer: ```iedriver = webdriver.IE(executable_path=”­Pat­h To­ IEDriverServer.exe”) ```<br />
-Edge: ```edgedriver = webdriver.Edge(executable_path=”­Pat­h To­ MicrosoftWebDriver.exe”)```__
-Opera: ```operadriver = webdriver.Opera(executable_path=”­Pat­h To­ operadriver”)```__
+# Browser based setup
+```
+Firefox: firefoxdriver = webdriver.Firefox(executable_path=”Path to Firefox driver”)
+Chrome: chromedriver = webdriver.Chrome(executable_path=”Path to Chrome driver”)
+Internet Explorer: iedriver = webdriver.IE(executable_path=”­Pat­h To­ IEDriverServer.exe”)
+Edge: edgedriver = webdriver.Edge(executable_path=”­Pat­h To­ MicrosoftWebDriver.exe”)
+Opera: operadriver = webdriver.Opera(executable_path=”­Pat­h To­ operadriver”)
 Safari: SafariDriver now requires manual installation of the extension prior to automation
+```
 
 # Properties of WebDriver class
 ```
