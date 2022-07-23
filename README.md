@@ -25,7 +25,7 @@ This repository is for all Python enthusiasts who have a keen interest in automa
 
 
 # Tools Needed
-Selenim - 
+Selenium - 
 Windows
 ``` py
 pip install selenium
@@ -125,19 +125,20 @@ select_by_value(value) -> This selects all the options that have a value matchin
 select_by_visible_text(text) -> This selects all the options that display the text matching the argument from the dropdown or list.
 ```
 
-#Alert class
+# Alert class
 Properties of the Alert class
 ```
 text -> This gets text from the alert window
 ```
-#Methods of the Alert class
+# Methods of the Alert class
 ```
 accept() -> This will accept the JavaScript alert box that is click on the OK button.
 dismiss() -> This will dismiss the JavaScript alert box that is click on the Cancel button.
 send_keys(*value) -> This simulates typing into the element.
 ```
-#Browser Arguments
-–headless
+# Browser Arguments
+```
+– headless
 To open browser in headless mode. Works in both Chrome and Firefox browser
 –start-maximized
 To start browser maximized to screen. Requires only for Chrome browser. Firefox by default starts maximized
@@ -146,3 +147,4 @@ To open private chrome browser
 –disable-notifications
 To disable notifications, works Only in Chrome browser
 http://allselenium.info/python-selenium-commands-cheat-sheet-frequently-used/
+```
